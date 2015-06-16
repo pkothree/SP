@@ -1,0 +1,2 @@
+# Get Certificates which will expire within 90 days
+Get-ChildItem -Path cert: -Recurse | where { $_.notafter -le (get-date).AddDays(90) -AND $_.notafter -gt (get-date)} | select subject, notafter, thumbprint
