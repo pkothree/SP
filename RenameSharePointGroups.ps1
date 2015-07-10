@@ -1,11 +1,19 @@
+###
+# Danny Davis
+# twitter: twitter.com/pko3
+# github: github.com/pkothree
+# Created: 08/10/14
+# Modified: 07/10/15
+###
+
 if ( (Get-PSSnapin -Name Microsoft.SharePoint.PowerShell -ErrorAction SilentlyContinue) -eq $null )
 {
 Add-PSSnapin Microsoft.SharePoint.PowerShell
 }
-$site = Get-SPSite http://yourservername/sites/yoursitecollection 
+$site = Get-SPSite http://yourservername/sites/yoursitecollection
 $groups = $site.RootWeb.sitegroups
 $grpPreFix = "NEW-"
-foreach ($grp in $groups) 
+foreach ($grp in $groups)
 {
   if($grp.Name.StartsWith("OLD-"))
   {
