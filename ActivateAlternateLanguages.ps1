@@ -1,9 +1,15 @@
+#
+# Danny Davis
+# twitter: twitter.com/pko3
+# github: github.com/pkothree
+#
+
 if ( (Get-PSSnapin -Name Microsoft.SharePoint.PowerShell -ErrorAction SilentlyContinue) -eq $null )
 {
 Add-PSSnapin Microsoft.SharePoint.PowerShell
 }
 
-$webApp = Get-SPWebApplication
+$webApp = Get-SPWebApplication WEBAPP
 
 foreach($site in $webApp.Sites)
 {
