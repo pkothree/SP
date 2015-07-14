@@ -23,5 +23,9 @@ Replace "OLD-", add the old prefix you want to replace.<br>
 The script will get every certificate that will expire in less than or equal 90 days.
 
 # ActivateAlternateLanguages.ps1
-You only have to edit line #14 "$webApp = WEBAPP". Change "WEBAPP" to the actual web application you want to crawl through. <br>
+You only have to edit line #15 "$webApp = WEBAPP". Change "WEBAPP" to the actual web application you want to crawl through. <br>
 This script will go through every site collection within a web app and it will activate other supported ui cultures if multi language is supported. To support multi language on all site collections just use line #19, this will activate multilingual support.
+
+# ActivateSelectedAlternateLanguages.ps1
+You only have to edit line #15 & line #16. Change "WEBAPP" to the actual web application you want to crawl through. Add your needed languages to the array.<br>
+This script will go through every site collection within a web app and it will activate other selected and supported ui cultures if multi language is supported. To support multi language on all site collections just use line #19, this will activate multilingual support for your selected languages.
