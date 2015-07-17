@@ -4,7 +4,7 @@
 # github: github.com/pkothree
 # Created: 07/10/15
 # Modified: 07/15/15
-# Description: Activate all alternate languages on all site collections
+# Description: Activate all alternate languages on all sites
 ###
 
 

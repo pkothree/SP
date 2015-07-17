@@ -4,7 +4,7 @@
 # github: github.com/pkothree
 # Created: 07/17/15
 # Modified: 07/17/15
-# Description: Activate selected alternate languages on all sites
+# Description: Activate selected alternate languages on all root collections
 ###
 
 if ( (Get-PSSnapin -Name Microsoft.SharePoint.PowerShell -ErrorAction SilentlyContinue) -eq $null )
