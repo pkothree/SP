@@ -2,9 +2,9 @@
 # Danny Davis
 # twitter: twitter.com/pko3
 # github: github.com/pkothree
-# Created: 07/14/15
-# Modified: 07/15/15
-# Description: Activate selected alternate languages on all site collections
+# Created: 07/17/15
+# Modified: 07/17/15
+# Description: Activate selected alternate languages on all sites
 ###
 
 if ( (Get-PSSnapin -Name Microsoft.SharePoint.PowerShell -ErrorAction SilentlyContinue) -eq $null )

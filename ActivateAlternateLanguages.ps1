@@ -3,8 +3,8 @@
 # twitter: twitter.com/pko3
 # github: github.com/pkothree
 # Created: 07/10/15
-# Modified: 07/15/15
-# Description: Activate all alternate languages on all site collections
+# Modified: 07/17/15
+# Description: Activate all alternate languages on all root site collections
 ###
 
 
