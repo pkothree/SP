@@ -24,11 +24,15 @@ The script will get every certificate that will expire in less than or equal 90 
 
 # ActivateAlternateLanguages.ps1
 You only have to edit line #15 "$webApp = WEBAPP". Change "WEBAPP" to the actual web application you want to crawl through. <br>
-This script will go through every site collection within a web app and it will activate other supported ui cultures if multi language is supported. To support multi language on all site collections just use line #19, this will activate multilingual support.
+This script will go through every site collection within a web app and it will activate other supported ui cultures if multi language is supported. To support multi language on all site collections just use line #26, this will activate multilingual support.
+
+#ActivateAlternateLanguagesAllSites.ps1
+You only have to edit line #16 "$webApp = WEBAPP". Change "WEBAPP" to the actual web application you want to crawl through. <br>
+This script will go through every site collection and every web within a web app and it will activate other supported ui cultures if multi language is supported. To support multi language on all site collections just use line #31, this will activate multilingual support.
 
 # ActivateSelectedAlternateLanguages.ps1
 You only have to edit line #15 & line #16. Change "WEBAPP" to the actual web application you want to crawl through. Add your needed languages to the array.<br>
-This script will go through every site collection within a web app and it will activate other selected and supported ui cultures if multi language is supported. To support multi language on all site collections just use line #19, this will activate multilingual support for your selected languages.
+This script will go through every site collection within a web app and it will activate other selected and supported ui cultures if multi language is supported. To support multi language on all site collections just use line #35, this will activate multilingual support for your selected languages.
 
 #GetADUserByEMail.ps1
 Search through a specific domain for a user. You will only need the e-Mail address for this to work. You can also use any other filter provided by "Get-ADUser". Please change in #10 "-domainname DOMAIN" to the domain you want to search. Also enter a correct e-Mail address in #14.
